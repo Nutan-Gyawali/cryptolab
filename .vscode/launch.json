@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Semester 5/Cryptography/LAB REPORT 1",
-      "program": "d:/Semester 5/Cryptography/LAB REPORT 1/build/Debug/outDebug",
+      "cwd": "d:/Semester 5/Cryptography/LAB REPORT/.vscode",
+      "program": "d:/Semester 5/Cryptography/LAB REPORT/.vscode/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

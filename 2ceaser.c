@@ -48,10 +48,12 @@ int main()
 
         case 3:
             printf("Exiting program...\n");
+            printf("NAME: Nutan Gyawali \n Roll number: 28387/078");
             break;
 
         default:
             printf("Invalid choice. Please enter 1, 2, or 3.\n");
+            printf("NAME: Nutan Gyawali \n Roll number: 28387/078");
             break;
         }
     } while (choice != 3);

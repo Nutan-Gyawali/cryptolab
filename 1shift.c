@@ -38,6 +38,7 @@ int main()
 
             encrypt(plaintext, ciphertext, key);
             printf("Encrypted Text: %s\n\n", ciphertext);
+
             break;
 
         case 2:
@@ -51,14 +52,17 @@ int main()
 
             decrypt(ciphertext, plaintext, key);
             printf("Decrypted Text: %s\n\n", plaintext);
+
             break;
 
         case 3:
             printf("Exiting program...\n");
+            printf("NAME: Nutan Gyawali \n Roll number: 28387/078");
             break;
 
         default:
             printf("Invalid choice. Please enter 1, 2, or 3.\n");
+            printf("NAME: Nutan Gyawali \n Roll number: 28387/078");
             break;
         }
     } while (choice != 3);
@@ -76,6 +80,7 @@ int getKey()
         printf("Invalid key. Enter again: ");
         scanf("%d", &key);
     }
+
     return key;
 }
 
